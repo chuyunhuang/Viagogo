@@ -1,0 +1,14 @@
+.header {
+  background-color: #a3d165;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+}
+
+.home {
+  width: 60%;
+  font-size: 30px;
+  text-align: left;
+}

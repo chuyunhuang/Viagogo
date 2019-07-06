@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  border: 0;
+  min-height: 100%;
+}
+
+.home-page-view {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+.home-page-img {
+  text-align: center;
+}
+
+.event-title {
+  padding-top: 50px;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.event-wrapper {
+}
+
+.single-event-card {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  display: inline-block;
+  width: 60%;
+  align-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  columns: gray;
+  background-color: #a3d165;
+}
+
+.single-event-card-detail {
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.single-event-card:hover {
+  background-color: black;
+  color: #efefef;
+}
