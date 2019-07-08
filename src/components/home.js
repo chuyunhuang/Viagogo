@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style/home.css";
 import jsonData from "../data/eventlist.json";
 
