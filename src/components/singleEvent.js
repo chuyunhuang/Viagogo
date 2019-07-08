@@ -22,7 +22,7 @@ const SingleEventCard = props => {
       </div>
       <div style={{ paddingTop: "5px" }}>
         <button style={{ borderRadius: "5px", padding: "10px" }}>
-          Get Ticket!
+          Get Tickets!
         </button>
       </div>
     </div>

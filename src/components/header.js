@@ -7,7 +7,7 @@ const Header = props => {
     <div className="header">
       <div className="home">
         <Link to="/" style={{ textDecoration: "none", color: "black" }}>
-          Elton John Concerts
+          Elton John GoGoTour
         </Link>
       </div>
       <div className="nav-item">
@@ -20,7 +20,7 @@ const Header = props => {
           to="/bestdeals"
           style={{ textDecoration: "none", color: "black" }}
         >
-          Best Deals
+          By Price
         </Link>
       </div>
       <div className="nav-item">
