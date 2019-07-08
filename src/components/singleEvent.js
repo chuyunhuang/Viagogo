@@ -20,6 +20,11 @@ const SingleEventCard = props => {
       <div className="single-event-card-detail">
         <div>Ticket Price: {props.price}</div>
       </div>
+      <div style={{ paddingTop: "5px" }}>
+        <button style={{ borderRadius: "5px", padding: "10px" }}>
+          Get Ticket!
+        </button>
+      </div>
     </div>
   );
 };

@@ -4,14 +4,12 @@ import jsonData from "../data/eventlist.json";
 
 //Image
 import EltonJohnImg from "./image/eltonJohn.jpg";
-
 //Components
 import LocationFilter from "../containers/locationFilter";
 
 const HomePage = props => {
   return (
     <div className="home-page-view">
-      <div className="event-title">Elton John Concerts</div>
       <img src={EltonJohnImg} alt="artist-img" className="home-page-img" />
       <div>
         <LocationFilter data={jsonData} />

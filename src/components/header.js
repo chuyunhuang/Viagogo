@@ -7,7 +7,7 @@ const Header = props => {
     <div className="header">
       <div className="home">
         <Link to="/" style={{ textDecoration: "none", color: "black" }}>
-          Yungogo
+          Elton John Concerts
         </Link>
       </div>
       <div className="nav-item">

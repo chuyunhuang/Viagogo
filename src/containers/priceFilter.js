@@ -23,7 +23,6 @@ class PriceFilter extends React.Component {
   }
 
   handleSelect = e => {
-    console.log(e.target.value, "handle e");
     let filterPrice = [];
     for (let i = 0; i < this.state.eventList.length; i++) {
       const price = this.state.eventList[i].MinPrice;
@@ -35,9 +34,6 @@ class PriceFilter extends React.Component {
   };
 
   render() {
-    console.log(this.state.eventList);
-    console.log("HERE", this.state.sorted);
-    console.log("HIHI", this.state.searchResult);
     return (
       <>
         <div className="form-group">
