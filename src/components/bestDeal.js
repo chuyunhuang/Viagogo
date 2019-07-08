@@ -1,24 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./style/home.css";
 import jsonData from "../data/eventlist.json";
 
 //Image
-import EltonJohnImg from "./image/eltonJohn.jpg";
+import EltonJohnImg from "../components/image/eltonJohn.jpg";
 
 //Components
-import LocationFilter from "../containers/locationFilter";
+import PriceFilter from "../containers/priceFilter";
 
-const HomePage = props => {
+const BestDeals = props => {
   return (
     <div className="home-page-view">
       <div className="event-title">Elton John Concerts</div>
       <img src={EltonJohnImg} alt="artist-img" className="home-page-img" />
       <div>
-        <LocationFilter data={jsonData} />
+        <PriceFilter data={jsonData} />
       </div>
     </div>
   );
 };
 
-export default HomePage;
+export default BestDeals;

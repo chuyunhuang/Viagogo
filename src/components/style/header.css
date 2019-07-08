@@ -12,3 +12,9 @@
   font-size: 30px;
   text-align: left;
 }
+
+.nav-item {
+  width: 18%;
+  padding-top: 15px;
+  text-align: right;
+}

@@ -4,7 +4,9 @@ const SingleEventCard = props => {
   return (
     <div className="single-event-card">
       <div className="single-event-card-detail">
-        <div>Date: {props.date}</div>
+        <div>
+          Date: {props.day}, {props.date}
+        </div>
       </div>
       <div className="single-event-card-detail">
         <div>Time: {props.time} </div>

@@ -11,10 +11,11 @@
 
 .home-page-img {
   text-align: center;
+  width: 400px;
 }
 
 .event-title {
-  padding-top: 50px;
+  padding-top: 30px;
   font-size: 48px;
   font-weight: 300;
 }
@@ -42,6 +43,13 @@
 }
 
 .single-event-card:hover {
-  background-color: black;
+  background-color: rgb(43, 81, 161);
   color: #efefef;
+  cursor: pointer;
+}
+
+/* Location Dropdown */
+.form-group {
+  width: 60%;
+  display: inline-block;
 }
