@@ -1,6 +1,7 @@
-## Porject Name : Yungogo for Elton John
+## Yungogo for Elton John
 
 A web page that displays concert information for Elton John!
+![](https://media.giphy.com/media/lnUBJy2EoYNgs0pBKu/giphy.gif)
 
 ## Installation
 
